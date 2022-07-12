@@ -1,0 +1,11 @@
+.article {
+  border: none;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: $shadow-md;
+  transition: 0.6s all ease;
+
+  .card-text {
+    padding: 10px 15px;
+  }
+}

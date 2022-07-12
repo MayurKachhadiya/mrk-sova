@@ -1,0 +1,18 @@
+.pricing {
+    border-radius: 15px;
+    border: none;
+    transition: all 0.5s ease;
+
+    .list {
+        margin-left: 70px;
+    }
+
+    .card-body {
+        margin: 20px 0px;
+    }
+
+    &:hover {
+        position: relative;
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,76 @@
+//
+// Bootstrap-custom.scss
+//
+
+/*********************************/
+/*         Bootstrap-custom      */
+/*===============================*/
+
+.container {
+    @media (min-width: 1400px) {
+        max-width: 1140px !important;
+    }
+}
+
+.section-title {
+    .heading {
+        @media (max-width: 768px) {
+            font-size: 26px !important;
+        }
+        @media (max-width: 991px) {
+            font-size: 30px !important;
+        }
+    }
+}
+.text-muted{
+    @media (max-width: 768px) {
+        font-size: 13px !important;
+    }
+    @media (max-width: 991px) {
+        font-size: 14px !important;
+    }
+}
+
+.row>* {
+    position: relative;
+}
+
+.h1,
+h1,
+.fs-1 {
+    font-size: 42px !important;
+}
+
+
+.h2,
+h2,
+.fs-2 {
+    font-size: 35px !important;
+}
+
+
+.h3,
+h3,
+.fs-3 {
+    font-size: 30px !important;
+}
+
+
+.h4,
+h4,
+.fs-4 {
+    font-size: 24px !important;
+}
+
+
+.h5,
+h5,
+.fs-5 {
+    font-size: 20px !important;
+}
+
+.h6,
+h6,
+.fs-6 {
+    font-size: 15px !important;
+}
