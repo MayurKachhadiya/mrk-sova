@@ -72,8 +72,12 @@ p {
     font-size: 14px !important;
   }
 }
-
-.section {
+.abc {
+  background-image: url("../Images/box.jpg");
+  background-repeat: no-repeat;
+  background-position: top, center;
+}
+.sectionabc {
   padding: 90px 0;
   position: relative;
 }
@@ -225,7 +229,7 @@ p {
   text-align: center;
   display: inline-block;
 }
-.scroll {
+* {
   scroll-behavior: smooth;
 }
 
@@ -433,11 +437,16 @@ h6,
 .btn.btn-outline-success:active,
 .btn.btn-outline-success.active,
 .btn.btn-outline-success.focus,
-.btn.btn-outline-success:not(:disabled):not(.disabled):active {
+.btn.btn-outline-success:not(:
+):not(.disabled):active {
   background-color: #1b6442;
   border-color: #1b6442;
   color: #ffffff !important;
   box-shadow: 0 3px 5px 0 rgba(27, 100, 66, 0.1);
+}
+
+.testimony {
+  autoplay: true;
 }
 
 .navbar {
@@ -445,6 +454,7 @@ h6,
   padding: 0;
   background-color: #fff;
 }
+
 .navbar .navbar-nav .nav-item .nav-link {
   color: #24272c;
   font-size: 14px;
@@ -649,3 +659,15 @@ h6,
 .footer .text-foot {
   color: #ffffff;
 } /*# sourceMappingURL=style.css.map */
+
+.active-link {
+  color: red;
+}
+
+nav .container ul li.active {
+  background-color: crimson;
+  transition: 0.3 ease background-color;
+}
+nav .container ul li.active a {
+  color: white;
+}
